@@ -34,10 +34,6 @@ def p2():
                 re.match('^[0-9]{9}$', pid) != None
     return p2
     
-def main():
+if __name__ == '__main__':
   print(f'P1: {p1()}')
   print(f'P2: {p2()}')
-  return 0
-
-if __name__ == '__main__':
-  main()
